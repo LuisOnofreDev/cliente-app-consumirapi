@@ -10,7 +10,7 @@ import { User } from './user';
 })
 export class ResourceService {
 
-  private url:string="http://jsonplaceholder.typicode.com/";
+  private url:string="https://jsonplaceholder.typicode.com/";
 
   constructor(private http:HttpClient) { }
 
